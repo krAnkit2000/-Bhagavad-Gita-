@@ -13,8 +13,9 @@
    
 }
 .nav a{
+    margin-right: 5px;
     justify-content: end;
-text-decoration: none;
-    padding: 12px 12px;
+ text-decoration: none;
+    padding: 12px 5px;
     text-transform: capitalize;
 }
