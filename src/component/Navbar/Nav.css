@@ -1,0 +1,20 @@
+.nav{
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+
+    justify-content: flex-end; 
+    margin-right: 2em;
+   margin: 0;
+   
+   width: 100%;
+   margin-top: 0;
+   
+}
+.nav a{
+    justify-content: end;
+text-decoration: none;
+    padding: 12px 12px;
+    text-transform: capitalize;
+}
