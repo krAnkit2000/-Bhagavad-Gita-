@@ -1,10 +1,27 @@
-.nav{
-    background-color: bisque;
+
+.logo{
+    position: fixed;
+    /* background-color: rgb(221, 239, 239); */
+     width: 100%;
+    margin-block-end: 2rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+
+    background-image: linear-gradient(to right, #5d8f99, #458dad, #4887c0, #6d7bc9, #9d67c0);
+}
+
+.logo h1{
+    text-align: center;
+}
+
+
+
+/* .nav{
+   
     display: flex;
     flex-wrap: wrap;
     margin: 12px;
 
-    justify-content: flex-end; 
     margin-right: 2em;
    margin: 0;
    
@@ -12,10 +29,39 @@
    margin-top: 0;
    
 }
+.nav img{
+    width: 14%;
+    height: 13%;
+    margin: -3.5rem  1.5rem ;
+
+}
 .nav a{
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.311);
+    color: rgb(12, 12, 13);
+    font-size: 17px;
+    font-weight: 600;
     margin-right: 5px;
     justify-content: end;
  text-decoration: none;
-    padding: 12px 5px;
+ padding: 12px 5px 4px 0;
     text-transform: capitalize;
+    position: relative;
+    margin: 2px 0.5em;
+
 }
+.nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    height: 4px;
+    width: 100%;
+
+    background-color: rgb(51, 13, 85);
+    transform: scaleX(0);
+    transition: 2s ease-in-out;
+}
+.nav a:hover::after{
+
+    transform: scaleX(1);
+} */

@@ -1,4 +1,12 @@
 .app{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+     --display-element: none;
+    --desktop-display-element: inherit;
+    /* background-image: linear-gradient(to bottom, #5c386e, #5c4a81, #5b5b93, #596da3, #597eb1); */
+
 }
