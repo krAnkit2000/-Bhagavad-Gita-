@@ -8,7 +8,9 @@ function Nav() {
   return (
   
     <div className="logo">
-    <h1> 𝕭𝖍𝖆𝖌𝖆𝖛𝖆𝖉 𝕲𝖎𝖙𝖆</h1>
+    <a href="." className='home'>
+    <h1>🕉 <span> 𝕭𝖍𝖆𝖌𝖆𝖛𝖆𝖉 𝕲𝖎𝖙𝖆 </span> 🕉</h1>
+    </a>
     
 </div>
     // <a href="/">home</a>

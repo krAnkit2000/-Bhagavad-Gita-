@@ -6,11 +6,20 @@
     margin-block-end: 2rem;
     margin-bottom: 2rem;
     z-index: 1;
-
+    text-align: center; 
     background-image: linear-gradient(to right, #5d8f99, #458dad, #4887c0, #6d7bc9, #9d67c0);
 }
 
 .logo h1{
+    color: #112f4b;
+   
+}
+.logo .home{
+    text-decoration: none;
+}
+
+.logo span{
+    text-shadow: 3px 2px 1px rgb(255, 169, 8);
     text-align: center;
 }
 
