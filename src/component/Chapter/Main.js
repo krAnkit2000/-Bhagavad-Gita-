@@ -98,12 +98,17 @@ const Api = async () => {
                 </Button> 
                 </div>
                 </Card.Body>
-                
+              
               </Card>
+              
+           
             </div>
+   
           );
         })
       )}
+
+      <h3 className="footer"> developed by Ankit </h3>
     </div>
   );
 

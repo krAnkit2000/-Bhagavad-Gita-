@@ -29,6 +29,13 @@
     bottom: 0;
 }
 
+.footer{
+    text-transform: capitalize;
+    margin: 12px auto;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-family: emoji;
+}
 
 
 
