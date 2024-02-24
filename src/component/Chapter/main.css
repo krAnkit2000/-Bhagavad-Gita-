@@ -21,12 +21,18 @@
     margin: 0 auto;
     left: 0;
     top: 0;
-    background: rgba(216, 157, 157, 0.5);
+    /* background: rgba(216, 157, 157, 0.5); */
+    background: url(https://t4.ftcdn.net/jpg/06/24/10/71/240_F_624107197_2qyVlCJ8eW70MZSc9mFi052P7MJZwdh5.jpg);
+  background-repeat: no-repeat;
+ backface-visibility: visible;
+ background-position: center;
+ background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     right: 0;
     bottom: 0;
+    z-index: -1;
 }
 
 .footer{
@@ -35,6 +41,10 @@
     margin-bottom: 0;
     font-size: 13px;
     font-family: emoji;
+    color: rgb(255, 111, 0);
+    text-shadow: 0px 1px 1px rgb(12, 11, 11);
+    font-family: sans-serif;
+  
 }
 
 

@@ -69,7 +69,7 @@ const Api = async () => {
       {isLoading ? (
         <div className="loading-icon">
           <Spinner animation="border" role="status">
-            <span className="sr-only">Loading...</span>
+            <span className="sr-only"></span>
           </Spinner>
         </div>
       ) : (
